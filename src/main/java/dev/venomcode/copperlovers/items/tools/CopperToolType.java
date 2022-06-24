@@ -11,7 +11,7 @@ public class CopperToolType implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 775;
+        return 350;
     }
 
     @Override
@@ -26,7 +26,7 @@ public class CopperToolType implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return MiningLevels.IRON;
+        return MiningLevels.STONE;
     }
 
     @Override
